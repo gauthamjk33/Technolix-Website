@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+.navbar {
+  position: relative !important;
+  background-color: rgb(255, 255, 255) !important;
+  align-self: right;
+}
+
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #6a74aa !important;
+}
+
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.navbar a:hover {
+  color: #da1616 !important;
+}
+
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #020214;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+     font-size: 1.5rem !important;
+  }
+  
+  .menu_active {
+    font-weight: bolder;
+    border-bottom: none;
+    color: black;
+  }
+}
+.btn_about_us{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: #e2212a;
+  border: 2px solid #e2212a;
+  text-decoration: none;
+
+}
+.btn_about_us:hover{
+  color:#fff;
+  background: #e2212a;
+  }
+.btn_events{
+  font-weight: 1000;
+  max-width: fit-content;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 30px;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: #5c8bd1;
+  border: 2px solid #5c8bd1;
+  text-decoration: none;
+
+}
+.btn_events:hover{
+  color:#fff;
+  background: #5c8bd1;
+  }
+.background_home{
+  background-image: url('./Images/background_home.jpg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.make-items-center{
+  transform: translateY(20%);
+}
+
+.background_hod_message{
+  background-image: url('./Images/bg_hod_message.jpg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+}
+
+#header {
+  width: 100%;
+  height: 80vh;
+}  
+header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  align-items: center;
+}
+
+#header .brand-name{
+  color: rgb(25, 43, 202);
+}
+.header-img{
+  text-align: left;
+}
+
+
+.image_same{
+  aspect-ratio: 1.5;
+
+}
+.image_same2{
+  max-height: 70vh;
+}
+
+.message_img{
+  max-height: 50vh;
+  float:right;
+  
+}
